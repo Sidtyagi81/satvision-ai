@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+opencv-python
+Pillow
+matplotlib
+folium
+streamlit-folium
+reportlab
+torch
+torchvision
+groq
