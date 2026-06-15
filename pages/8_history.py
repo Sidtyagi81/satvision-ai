@@ -4,8 +4,9 @@ import pandas as pd
 from sidebar import render_sidebar
 
 st.set_page_config(
-    page_title="Semantic Analysis",
-    layout="wide"
+    page_title="History",
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 col1, col2 = st.columns([1,5])

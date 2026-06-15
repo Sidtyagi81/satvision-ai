@@ -3,7 +3,8 @@ from sidebar import render_sidebar
 
 st.set_page_config(
     page_title="Overlay Result",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.markdown("""

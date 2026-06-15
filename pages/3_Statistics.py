@@ -4,7 +4,8 @@ from sidebar import render_sidebar
 
 st.set_page_config(
     page_title="Statistics",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 # ================= CSS =================

@@ -21,8 +21,9 @@ from datetime import datetime
 from streamlit_image_comparison import image_comparison
 
 st.set_page_config(
-    page_title="Satellite Change Detection",
-    layout="wide"
+    page_title="Dashboard",
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 col1, col2 = st.columns([1,5])

@@ -3,7 +3,8 @@ from sidebar import render_sidebar
 
 st.set_page_config(
     page_title="Model Information",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 username = st.session_state.get(

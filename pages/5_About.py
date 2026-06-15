@@ -5,7 +5,8 @@ from sidebar import render_sidebar
 
 st.set_page_config(
     page_title="About Analysis",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 # ================= PROFILE SECTION =================

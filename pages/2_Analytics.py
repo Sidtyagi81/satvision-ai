@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 from sidebar import render_sidebar
 
 st.set_page_config(
-    layout="wide",
     page_title="Analytics",
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.markdown("""
