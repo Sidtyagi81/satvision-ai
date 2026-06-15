@@ -399,7 +399,7 @@ with col1:
     )
 
     if st.button("🚀 Continue To Login", key="login_btn"):
-        st.switch_page("pages/login.py")
+        st.switch_page("pages/Login.py")
 
 # SIGNUP CARD
 with col2:
@@ -414,7 +414,7 @@ with col2:
     )
 
     if st.button("✨ Create Account", key="signup_btn"):
-        st.switch_page("pages/signup.py")
+        st.switch_page("pages/Signup.py")
 
 # ================= FEATURES =================
 
