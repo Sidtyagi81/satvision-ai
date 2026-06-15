@@ -10,3 +10,4 @@ reportlab
 torch
 torchvision
 groq
+geopy
