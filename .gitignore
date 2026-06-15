@@ -8,10 +8,6 @@ SECOND/
 BIT_LEVIR/
 PAM-pretrain/
 
-# Models not needed for deployment
-*.pt
-*.pth
-
 # Generated files
 Satellite_Report.pdf
 users.db
